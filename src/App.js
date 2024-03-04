@@ -6,6 +6,8 @@ import Button from "./Button/Button";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
+import EventButton from "./EventButton";
+import ProfilePicture from "./ProfilePicture";
 
 function App() {
   const fruits = [
@@ -35,6 +37,8 @@ function App() {
       {shoppingEmptyList.length > 0 ? (
         <List items={shoppingEmptyList} category="To buy grocery" />
       ) : null}
+      <EventButton />
+      <ProfilePicture />
       <Card />
       <Card />
       <Card />
