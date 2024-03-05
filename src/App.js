@@ -8,6 +8,7 @@ import UserGreeting from "./UserGreeting";
 import List from "./List";
 import EventButton from "./EventButton";
 import ProfilePicture from "./ProfilePicture";
+import MyComponent from "./MyComponent";
 
 function App() {
   const fruits = [
@@ -53,6 +54,7 @@ function App() {
       <Student name="Jerry" age={90} isStudent={true} />
       <Student name="Mickey" age={10} isStudent={false} />
       <Student />
+      <MyComponent />
       <Footer />
     </>
   );
