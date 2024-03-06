@@ -10,6 +10,7 @@ import EventButton from "./EventButton";
 import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
+import MyOtherComponent from "./MyOtherComponent";
 
 function App() {
   const fruits = [
@@ -34,6 +35,7 @@ function App() {
     <>
       <Header />
       <UserGreeting isLoggedIn={false} userName="Octav" />
+      <MyOtherComponent />
       <Counter />
 
       <List items={fruits} category="Fruits" />

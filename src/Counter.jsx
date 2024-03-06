@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 function Counter() {
   const [count, setCount] = useState(0);
-
+  //count -> stateful variable
+  //setCount -> setter function
   const increment = () => {
     setCount(count + 1);
   };
