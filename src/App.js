@@ -11,6 +11,7 @@ import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import MyOtherComponent from "./MyOtherComponent";
+import ColorPicker from "./ColorPicker";
 
 function App() {
   const fruits = [
@@ -37,7 +38,6 @@ function App() {
       <UserGreeting isLoggedIn={false} userName="Octav" />
       <MyOtherComponent />
       <Counter />
-
       <List items={fruits} category="Fruits" />
       <List items={vegetables} category="Vegetables" />
       {shoppingEmptyList.length > 0 ? (
@@ -60,6 +60,7 @@ function App() {
       <Student name="Mickey" age={10} isStudent={false} />
       <Student />
       <MyComponent />
+      <ColorPicker />
       <Footer />
     </>
   );
