@@ -9,6 +9,7 @@ import List from "./List";
 import EventButton from "./EventButton";
 import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 function App() {
   const fruits = [
@@ -33,6 +34,8 @@ function App() {
     <>
       <Header />
       <UserGreeting isLoggedIn={false} userName="Octav" />
+      <Counter />
+
       <List items={fruits} category="Fruits" />
       <List items={vegetables} category="Vegetables" />
       {shoppingEmptyList.length > 0 ? (
