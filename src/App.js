@@ -15,6 +15,7 @@ import ColorPicker from "./ColorPicker";
 import CarComponent from "./CarComponent";
 import GroceryListComponent from "./GroceryListComponent";
 import CarListComponent from "./CarsListComponent";
+import ToDoList from "./ToDoList";
 
 function App() {
   const fruits = [
@@ -67,6 +68,7 @@ function App() {
       <CarComponent />
       <GroceryListComponent />
       <CarListComponent />
+      <ToDoList />
       <Footer />
     </>
   );
