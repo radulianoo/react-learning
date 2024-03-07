@@ -13,6 +13,7 @@ import Counter from "./Counter";
 import MyOtherComponent from "./MyOtherComponent";
 import ColorPicker from "./ColorPicker";
 import CarComponent from "./CarComponent";
+import GroceryListComponent from "./GroceryListComponent";
 
 function App() {
   const fruits = [
@@ -63,6 +64,7 @@ function App() {
       <MyComponent />
       <ColorPicker />
       <CarComponent />
+      <GroceryListComponent />
       <Footer />
     </>
   );
