@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+//how to update the state of the arrays
+
 function GroceryListComponent() {
   const [foods, setFoods] = useState(["apple", "orange", "banana"]);
 
