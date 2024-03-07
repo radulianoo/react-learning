@@ -16,6 +16,8 @@ import CarComponent from "./CarComponent";
 import GroceryListComponent from "./GroceryListComponent";
 import CarListComponent from "./CarsListComponent";
 import ToDoList from "./ToDoList";
+import EffectComponent from "./EffectComponent";
+import WindowComponent from "./WindowComponent";
 
 function App() {
   const fruits = [
@@ -39,6 +41,8 @@ function App() {
   return (
     <>
       <Header />
+      <WindowComponent />
+      <EffectComponent />
       <UserGreeting isLoggedIn={false} userName="Octav" />
       <MyOtherComponent />
       <Counter />
